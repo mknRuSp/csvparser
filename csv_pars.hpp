@@ -3,7 +3,6 @@
     #define CSV_PARS_IS_INCLUDED 1
     #include <string>
     #include <vector>
-    #include <initializer_list>
     namespace csv 
     {
         auto parsing( const std::string_view CSV_TXT )
@@ -24,4 +23,5 @@
     }
 
 #endif
+
 
