@@ -1,4 +1,4 @@
-//CSV parser my mknRuSq
+//CSV parser my mknRuSp
 #ifndef CSV_PARS_IS_INCLUDED
     #define CSV_PARS_IS_INCLUDED 1
     #include <string>
@@ -22,4 +22,5 @@
             return std::initializer_list{ParsedCsv.get_allocator()};
         }        
     }
+
 #endif
