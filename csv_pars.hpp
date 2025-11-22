@@ -19,8 +19,9 @@
                 }
                 else { temp += i; }
             }
-            return std::initializer_list{ParsedCsv.get_allocator()};
+            return ParsedCsv;
         }        
     }
 
 #endif
+
